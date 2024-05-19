@@ -1,0 +1,41 @@
+<view class="main">
+    <view class="header">
+        <!-- <image src="{{thumb}}" class="thumb"></image>
+        <text class="nickname">{{nickname}}</text> -->
+        <button class="thumb" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+      <image class="thumb" src="{{avatarUrl}}"></image>
+    </button>
+    <input type="nickname" class="weui-input" placeholder="请输入昵称" />
+        <text class="about">关于我们</text>
+    </view>
+    <view class="address-box">
+        <view class="address-manage">
+            <navigator url="/page/component/address/address">地址管理</navigator>
+        </view>
+        <view wx:if="{{hasAddress}}" class="address-list">
+            <view>{{address.name}}</view>
+            <view>{{address.phone}}</view>
+            <view>{{address.detail}}</view>
+        </view>
+    </view>
+    <view class="orders-box">
+        <view class="orders">我的订单</view>
+        <view class="orders-list" wx:for="{{orders.config1}}" wx:key="index">
+            <view class="orders-number">订单编号：{{item.number}}</view>
+            <view class="orders-detail">
+                <image src="{{item.thumb}}"></image>
+                <view class="">{{item.name}}</view>
+                <view class="">{{item.count}}</view>
+                <text class="orders-status">{{item.status}}</text>
+            </view>
+            <view class="orders-footer">
+                <text>实付：￥{{item.money}}</text>
+                
+                <button size="mini" class="orders-paybtn" data-status="{{item.status}}" bindtap="payOrders" style="margin-left:10px;">付款</button>
+
+                <button size="mini" class="orders-refundbtn" data-status="{{item.status}}" bindtap="refundOrders"
+                style="margin-left:10px;">退款</button>
+            </view>
+        </view>
+    </view>
+</view>

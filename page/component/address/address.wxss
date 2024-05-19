@@ -1,0 +1,45 @@
+/* app.wxss 或者页面对应的 .wxss 文件 */
+.main {
+  padding: 20rpx;
+}
+
+.form-box {
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+  border: 1px solid #ddd;
+  border-radius: 10rpx;
+  background-color: #f9f9f9;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20rpx;
+  padding: 10rpx;
+  border: 1px solid #ccc;
+  border-radius: 5rpx;
+}
+
+.location-info {
+  margin-top: 20rpx;
+  padding: 10rpx;
+  border-top: 1px solid #eee;
+}
+
+.location-info text {
+  display: block;
+  margin-bottom: 10rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 15rpx;
+  background-color: #1aad19;
+  color: #fff;
+  border: none;
+  border-radius: 5rpx;
+  font-size: 32rpx;
+}
