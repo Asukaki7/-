@@ -1,0 +1,33 @@
+<!--page/component/uploadpage/uploadpage.wxml-->
+<view class="main">
+  <form bindsubmit="formSubmit">
+    <view class="form-item">
+      <button class="upload-image" bindtap="chooseImage">选择图片</button>
+    </view>
+    <view class="form-item">
+      <view class="imagesize">
+      <image src="{{goods.image}}" wx:if="{{goods.image}}" />
+      </view>
+    </view>
+    
+    <view class="form-item">
+      <input class="input-field" placeholder="商品标题" data-field="title" bindinput="bindInputChange" />
+    </view>
+    <view class="form-item">
+      <input class="input-field" placeholder="价格" data-field="price" bindinput="bindInputChange" />
+    </view>
+    <view class="form-item">
+      <input class="input-field" placeholder="库存" data-field="stock" bindinput="bindInputChange" />
+    </view>
+    <view class="form-item">
+      <textarea class="input-field" placeholder="详情" data-field="detail" bindinput="bindInputChange"></textarea>
+    </view>
+    <view class="form-item">
+      <input class="input-field" placeholder="参数" data-field="parameter" bindinput="bindInputChange" />
+    </view>
+    <view class="form-item">
+      <input class="input-field" placeholder="服务" data-field="service" bindinput="bindInputChange" />
+    </view>
+    <button class="submit-btn" form-type="submit">上架商品</button>
+  </form>
+</view>

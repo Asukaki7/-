@@ -11,7 +11,7 @@
     color: #fff;
 }
 .header .thumb{
-    position: fixed;
+    position:absolute;
     left: 30rpx;
     top: 40rpx;
     width: 100rpx;
@@ -19,7 +19,7 @@
     border-radius: 50%;
 }
 .header .weui-input {
-  position: fixed;
+  position: absolute;
     left: 150rpx;
     top: 40rpx;
     width: 150rpx;

@@ -1,0 +1,31 @@
+<!--page/component/aboutus/aboutus.wxml-->
+<!--二维码区域-->
+<view id="qrCodeView">
+    <image src="/image/qrcode.jpg" bind:tap="preview" data-src="/image/qrcode.jpg"></image>
+    <text>微信扫一扫添加开发者微信</text>
+</view>
+
+<!--开发者信息区域-->
+<view id="developerView">
+    <view class="developerItemView">
+        <view>开发者姓名</view>
+        <view>Asukaki</view>
+    </view>
+    <view class="developerItemView">
+        <view>开发者学校</view>
+        <view>NEU</view>
+    </view>
+    <view class="developerItemView">
+        <view>开发者电话</view>
+        <view>154515151</view>
+    </view>
+    <view class="developerItemView">
+        <view>开发者微信号</view>
+        <view>kpandsnow</view>
+    </view>
+    <view class="developerItemView">
+        <view>开发者邮箱</view>
+        <view>asukaasaki7@gmail.com</view>
+    </view>
+    
+</view>

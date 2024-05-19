@@ -15,12 +15,12 @@ function initData(that) {
   msgList = [{
       speaker: 'server',
       contentType: 'text',
-      content: ''
+      content: '你好 请问有什么能帮到您的？'
     },
     {
       speaker: 'customer',
       contentType: 'text',
-      content: '我怕是走错片场了...'
+      content: '是这样的，我前几天够买的商品...'
     }
   ]
   that.setData({

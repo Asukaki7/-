@@ -24,6 +24,14 @@ Page({
       {
         name: '淡饭',
         id: 'danfan'
+      }, 
+      {
+        name:'书籍',
+        id: 'shuji'
+      },
+      {
+        name:'单片机',
+        id:'danpianji'
       }
     ],
     detail: [],

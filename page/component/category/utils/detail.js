@@ -1,6 +1,6 @@
 const config1 = [{
   "id": "guowei",
-  "banner": "/image/c1.png",
+  "banner": "/image/b1.jpg",
   "cate": "果味",
   "detail": [
     {
@@ -27,7 +27,7 @@ const config1 = [{
 },
 {
   "id": "shucai",
-  "banner": "/image/c1.png",
+  "banner": "/image/b1.jpg",
   "cate": "蔬菜",
   "detail": [
     {
@@ -43,7 +43,7 @@ const config1 = [{
 },
 {
   "id": "chaohuo",
-  "banner": "/image/c1.png",
+  "banner": "/image/b1.jpg",
   "cate": "炒货",
   "detail": [
     {
@@ -58,7 +58,7 @@ const config1 = [{
 },
 {
   "id": "dianxin",
-  "banner": "/image/c1.png",
+  "banner": "/image/b1.jpg",
   "cate": "点心",
   "detail": [
     {
@@ -73,7 +73,7 @@ const config1 = [{
 },
 {
   "id": "cucha",
-  "banner": "/image/c1.png",
+  "banner": "/image/b1.jpg",
   "cate": "粗茶",
   "detail": [
     {
@@ -88,7 +88,7 @@ const config1 = [{
 },
 {
   "id": "danfan",
-  "banner": "/image/c1.png",
+  "banner": "/image/b1.jpg",
   "cate": "淡饭",
   "detail": [
     {
@@ -98,6 +98,36 @@ const config1 = [{
     {
       "thumb": "/image/c17.jpg",
       "name": "sweet potato"
+    }
+  ]
+},
+{
+  "id": "shuji",
+  "banner": "/image/b1.jpg",
+  "cate": "书籍",
+  "detail": [
+    {
+      "thumb": "/image/s8.png",
+      "name": "高等数学"
+    },
+    {
+      "thumb": "/image/s7.png",
+      "name": "软件工程"
+    }
+  ]
+},
+{
+  "id": "danpianji",
+  "banner": "/image/b1.jpg",
+  "cate": "单片机",
+  "detail": [
+    {
+      "thumb": "/image/s10.jpg",
+      "name": "51单片机"
+    },
+    {
+      "thumb": "/image/s9.png",
+      "name": "esp32"
     }
   ]
 }

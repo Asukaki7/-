@@ -6,7 +6,9 @@
       <image class="thumb" src="{{avatarUrl}}"></image>
     </button>
     <input type="nickname" class="weui-input" placeholder="请输入昵称" />
+      <navigator url="/page/component/aboutus/aboutus">
         <text class="about">关于我们</text>
+      </navigator>
     </view>
     <view class="address-box">
         <view class="address-manage">

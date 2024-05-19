@@ -1,0 +1,49 @@
+/* page/component/uploadpage.wxss */
+.main {
+  padding: 20px;
+}
+
+.form-item {
+  margin-bottom: 20px;
+}
+
+.imagesize{
+  display:flex;                    
+  justify-content: center;         
+ }
+.imagesize image { 
+  width: 200rpx;
+  height: 200rpx;
+}
+.upload-image {
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.input-field {
+  display: block;
+  width: 100%;
+  margin-bottom: 20rpx;
+  padding: 10rpx;
+  border: 1px solid #ccc;
+  border-radius: 5rpx;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #1AAD19;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+}

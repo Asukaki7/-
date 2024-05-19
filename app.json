@@ -9,11 +9,13 @@
     "page/component/details/details",
     "page/component/list/list",
     "page/component/search/search",
-    "page/component/contact/contact"
+    "page/component/contact/contact",
+    "page/component/uploadpage/uploadpage",
+    "page/component/aboutus/aboutus"
   ],
   "window": {
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "零食商贩",
+    "navigationBarTitleText": "校园二手交易平台",
     "navigationBarBackgroundColor": "#AB956D",
     "backgroundColor": "#eeeeee",
     "enablePullDownRefresh": true

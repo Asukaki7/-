@@ -59,6 +59,18 @@
     -webkit-animation: to_cart_scale .3s ease;
     animation: to_cart_scale .3s ease;
 }
+.uploads-icon{
+    position: absolute;
+    right: 40rpx;
+    top: 150rpx;
+    width: 75rpx;
+    height: 75rpx;
+}
+.uploads-icon image{
+    width: 100%;
+    height: 100%;
+}
+
 @-webkit-keyframes to_cart_scale {
     50%{
         -webkit-transform: scale(1.2);

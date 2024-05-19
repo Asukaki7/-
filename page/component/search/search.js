@@ -3,14 +3,7 @@ Page({
     data: {
         history: [],
         hot: ['新鲜芹菜', '大红枣', '滋补桂圆干'],
-        result: [
-            {
-                id: 2,
-                url: '../details/details?id = 2',
-                thumb: '/image/s4.png',
-                title: '瓜子 100g',
-                price: 0.01
-            },
+        result: [ 
             {
                 id: 3,
                 url: '../details/details?id = 3',
