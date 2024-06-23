@@ -1,7 +1,7 @@
 const goodsData = [{
     id: 1,
     image: '/image/goods1.png',
-
+    originate:'/image/originate.png',
     title: '新鲜梨花带雨',
     price: 0.01,
     stock: '有货',
