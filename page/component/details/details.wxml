@@ -9,9 +9,13 @@
           <image src="/image/upload_126569.png"></image>
         </view>
       </navigator>
+    </view> 
+      <image src="{{goods.image}}" class="goods-thumb"></image>
+    <view>
+        <button class="originate" bind:tap="showImage">查看溯源</button>
+        <image src="{{goods.originate}}"  mode="widthFix" hidden="{{!isImageVisible}}" class="popup-image"></image>
     </view>
-
-    <image src="{{goods.image}}" class="goods-thumb"></image>
+    
     <view>
       <navigator open-type="switchTab" url="../cart/cart">
         <view class="carts-icon {{scaleCart?'on':''}}">
@@ -19,8 +23,9 @@
           <text class="carts-icon-num" wx:if="{{hasCarts}}">{{totalNum}}</text>
         </view>
       </navigator>
+      
     </view>
-
+    
 
     <view class="goods-operation">
       <text class="goods-operation-num">数量 {{num}}</text>

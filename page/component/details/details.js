@@ -2,9 +2,8 @@
 const goodsData = require("../details/utils/goodsdata.js");
 Page({
   data:{
+    isImageVisible: false,
     goods: {},
-    
-
     num: 1,
     totalNum: 0,
     hasCarts: false,
@@ -12,7 +11,11 @@ Page({
     show: false,
     scaleCart: false
   },
-
+  showImage:function() {
+    this.setData({
+      isImageVisible: !this.data.isImageVisible
+    });
+  },
   addCount() {
     let num = this.data.num;
     num++;

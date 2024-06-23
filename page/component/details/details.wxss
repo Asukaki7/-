@@ -13,6 +13,21 @@
     margin: 35rpx 0 125rpx;
 }
 
+.originate{
+  position: absolute;
+  right:270rpx;
+  top: 400rpx;
+  margin-top: 25rpx;
+  margin-bottom: 25rpx;
+  width: auto;
+  height: auto;
+  font-size: medium;
+}
+
+.popup-image {
+  margin-top: 20px;
+  width: 80%;
+}
 .to-carts-icon{
     position: absolute;
     right: 70rpx;

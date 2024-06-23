@@ -1,6 +1,7 @@
 const goodsData = [{
     id: 1,
     image: '/image/goods1.png',
+
     title: '新鲜梨花带雨',
     price: 0.01,
     stock: '有货',
@@ -11,6 +12,7 @@ const goodsData = [{
   {
     id: 2,
     image: '/image/s4.png',
+    originate:'/image/originate.png',
     title: '瓜子',
     price: 0.02,
     stock: '有货',
@@ -22,6 +24,7 @@ const goodsData = [{
   {
     id: 3,
     image: '/image/s5.png',
+    originate:'/image/originate.png',
     title: '芹菜',
     price: 0.2,
     stock: '有货',
@@ -32,6 +35,7 @@ const goodsData = [{
   {
     id: 4,
     image: '/image/s6.png',
+    originate:'/image/originaterice.png',
     title: '素米',
     price: 0.2,
     stock: '有货',
